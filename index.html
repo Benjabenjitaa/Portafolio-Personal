@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <h1>Portafolio Personal</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#mis-proyectos">Mis proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <footer>
+            <p>© 2024</p>
+            <p class="copy-text">Desarrollado por Benjamin Pizarro</p>
+        </footer>
+    </div>
+    <div class="content">
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <div class="sobre-mi-content">
+                <img src="images/foto1.jpg" alt="Foto personal" class="foto1">
+                <p>Hola, mi nombre es Benjamin Pizarro y tengo 16 años. Estudio en el Colegio Técnico Profesional
+                    Arturo Matte Larrain, donde me especializo en Programacion.
+                    Mi objetivo es convertirme en un desarrollador full stack, ya que me apasiona el mundo de la
+                    tecnología y el desarrollo de software. Me interesa aprender tanto sobre el frontend, que se encarga
+                    de la interfaz y la experiencia del usuario, como sobre el backend, que se ocupa de la lógica, bases
+                    de datos y servidores. En el futuro, aspiro a trabajar en proyectos innovadores que desafíen mis
+                    habilidades y me permitan crecer profesionalmente en el campo de la programación. Me esfuerzo por
+                    adquirir conocimientos en diferentes lenguajes de programación y herramientas tecnológicas, y
+                    siempre estoy buscando nuevas oportunidades para mejorar y aplicar lo que aprendo.
+                </p>
+            </div>
+        </section>
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <div class="sobre-mi-content">
+                <img src="images/futbol.jpg" alt="Foto personal" class="foto1">
+            <p>Mis pasatiempos cuando tengo tiempo libre son bastante variados. Me encanta jugar al fútbol, ya que
+                disfruto mucho de la emoción de los partidos y de mantenerme activo. También me gusta pasar tiempo con
+                mi pareja; nos encanta ver películas juntos, conocer nuevos lugares y disfrutar de nuestra compañía, nos reimos bastante cuando estamos juntos.
+                Además, soy un entusiasta de los videojuegos en PC. Me gusta sumergirme en diferentes mundos virtuales,
+                probar nuevos juegos y compartir experiencias con mis amigos en línea. Tambien ir al Estadio a ver a la Universidad de Chile. Estos hobbies no solo me permiten
+                relajarme, sino también disfrutar de momentos divertidos y enriquecedores.</p>
+            <!-- Contenido adicional -->
+        </section>
+                <section id="mis-proyectos">
+            <h2>Mis proyectos</h2>
+            <!-- Contenido adicional -->
+            <div class="contenedor-proyectos">
+                <a href="https://benjabenjitaa.github.io/Pizarro-Cortes/" target="_blank"><img src="images/proyectos1.png" alt="Pizarro & Cortes" class="foto1"></a>
+                <div class="textoproyectos">
+                    <a href="https://benjabenjitaa.github.io/Pizarro-Cortes/" target="_blank"><h3 class="h3proyectos">Pizarro & Cortes Aseo.</h3></a>
+                    <p class="pproyectos">Pizarro & Cortes Aseo es un proyecto el cual lo estoy realizando hace algunos dias.
+                     La funcionalidad de esta Pagina Web es poder ayudar a personas que necesitan limpieza en colegios, casa 
+                     o tambien se realiza aseo en industrias. Su nombre es por mi Apellido y el de mi Pareja que la realizamos en conjunto.
+                    </p>
+                    <p class="pproyectos">
+                        Mi motivacion para seguir con el proyecto es poder finalizarlo antes de fin de año, con la motivacion de poder tener
+                        ingresos extras junto con mi Pareja, muy feliz por el avance que llevo en tan solo tres dias, ya que llevo 1/2 de la pagina.
+                    </p>
+                </div>
+                
+        </section>
+        <section id="habilidades">
+            <h2>Habilidades que Domino</h2>
+            <div class="progress-wrapper">
+                <div class="progress-container">
+                    <div class="progress-bar html" style="width: 80%;">
+                        <span class="progress-text">HTML - 80%</span>
+                    </div>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar css" style="width: 95%;">
+                        <span class="progress-text">CSS - 95%</span>
+                    </div>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar js" style="width: 35%;">
+                        <span class="progress-text">JavaScript - 35%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <div class="form-container">
+                <div class="left">
+                    <h3>Formulario de Contacto</h3>
+                    <p>Por favor, complete el formulario a continuación para contactarnos.</p>
+                </div>
+                <div class="right">
+                    <form id="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="java.js"></script>
+</body>
+
+</html>
